@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+* html,
+* body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+html {
+  font-size: 62.5%;
+}
+html body header nav {
+  height: 100vh;
+}
+h1 {
+  font-size: 2.5rem;
+}
+a {
+  font-size: 2rem;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  height: 0 auto;
+}
+.head-container {
+  padding: 0 30px;
+  background-color: #0e0e10;
+}
+.head-container header nav h1 {
+  float: left;
+  color: white;
+  font-weight: 300;
+}
+.head-container header nav .a {
+  padding-top: 20px;
+  float: right;
+}
+.head-container header nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
+  font-weight: 300;
+}
+.head-container header nav a:hover {
+  color: #393e44;
+}
